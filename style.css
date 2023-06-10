@@ -5,6 +5,10 @@ body {
     margin: 0;
     padding: 1rem;
 }
+aside {
+    display: flex;
+    flex-direction: column;
+}
 a {
     color: grey;
     text-decoration: none;
@@ -23,7 +27,17 @@ nav {
     flex-direction: row;
     list-style-type: none;
 }
+/* Divs with images */
 .shopping-cart {
     display: flex;
     align-self: right;
+}
+.main-image-container {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
+.main-image-container img {
+    height: 30%;
+    width: 30rem;
 }
