@@ -5,3 +5,25 @@ body {
     margin: 0;
     padding: 1rem;
 }
+a {
+    color: grey;
+    text-decoration: none;
+}
+li {
+    list-style-type: none;
+}
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style-type: none;
+}
+nav {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+}
+.shopping-cart {
+    display: flex;
+    align-self: right;
+}
