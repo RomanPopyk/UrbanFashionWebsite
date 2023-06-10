@@ -3,12 +3,52 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     margin: 0;
-    padding: 1rem;
+    padding: 2rem 0.5rem;
 }
-aside {
+header {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    list-style-type: none;
 }
+/* containers in the header */
+.logo-image {
+    border: 1px aqua solid;
+    /* somehow it works to make a right header*/
+    /* flex: 30%; */
+}
+nav {
+    flex: 60%;
+    border: 1px red solid;
+}
+nav ul {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    list-style-type: none;
+}
+.shopping-cart {
+    position: relative;
+    bottom: 0;
+    right: 0;
+    border: 1px red solid;
+}
+/* aside + main */
+aside {
+    display: inline-block;
+    padding: 0;
+    margin-left: 0;
+    border: 1px red solid;
+}
+aside ul {
+    padding: 0;
+    margin: 0;
+}
+main {
+    border: 1px purple solid;
+    display: inline-block;
+    margin: 4rem;
+}
+/* other elements */
 a {
     color: grey;
     text-decoration: none;
@@ -16,21 +56,9 @@ a {
 li {
     list-style-type: none;
 }
-header {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    list-style-type: none;
-}
-nav {
-    display: flex;
-    flex-direction: row;
-    list-style-type: none;
-}
 /* Divs with images */
-.shopping-cart {
-    display: flex;
-    align-self: right;
+.logo-image img {
+    width: 6rem;
 }
 .main-image-container {
     position: fixed;
@@ -39,5 +67,6 @@ nav {
 }
 .main-image-container img {
     height: 30%;
-    width: 30rem;
+    width: 500px;
+    border: 1px red solid;
 }
