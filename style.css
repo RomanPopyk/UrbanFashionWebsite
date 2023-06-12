@@ -70,3 +70,17 @@ li {
     width: 500px;
     border: 1px red solid;
 }
+/* Buttons */
+.button-collections {
+    color:white;
+    background-image: linear-gradient(to right, #9BA3F7, #BAB1E7, #F879D5);
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    padding: 0.7rem 1.2rem;
+    font-size: 1rem;
+}
+.button-collections:hover {
+    background: white;
+    opacity: 0.1;
+}
