@@ -54,6 +54,8 @@ nav ul {
 aside {
     display: inline-block;
     border: 1px red solid;
+    position: absolute;
+    top: 15rem;
 }
 aside ul {
     padding: 0;
@@ -62,7 +64,14 @@ aside ul {
 main {
     border: 1px purple solid;
     display: inline-block;
-    margin: 4rem;
+    margin: 5rem 7rem;
+}
+main h2 {
+    font-weight: 540;
+}
+main p {
+    color: grey;
+    font-size: 1.5rem;
 }
 /* other elements */
 a {
