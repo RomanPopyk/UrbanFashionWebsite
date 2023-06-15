@@ -131,7 +131,7 @@ li {
 @media screen and (max-width: 900px) {
     body {
         background-image: url(files/background960x540.webp);
-        min-width: 413px;
+        min-width: 900px;
     }
     .main-image-container img {
         width: 30rem;
@@ -148,7 +148,7 @@ li {
 @media screen and (max-width: 412px) {
     body {
         background-image: url(files/background412x915.webp);
-        min-width: 413px;
+        min-width: 700px;
     }
     .main-image-container img {
         width: 10rem;
