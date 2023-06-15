@@ -137,3 +137,14 @@ li {
         padding: 1.5rem 0.5rem;
     }
 }
+
+@media screen and (max-width: 412px) {
+    body {
+        background-image: url(files/background412x915.webp);
+        background-repeat: no-repeat;
+        background-size: cover;
+        font-family: Helvetica, sans-serif;
+        margin: 0;
+        padding: 1.5rem 0.5rem;
+    }
+}
