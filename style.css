@@ -9,7 +9,6 @@ body {
     min-width: 901px;
 }
 header {
-    border: 1px purple solid;
     display: flex;
     flex-direction: row;
     list-style-type: none;
@@ -18,14 +17,12 @@ header {
 }
 /* containers in the header */
 .logo-image {
-    border: 1px aqua solid;
     /* somehow it works to make a right header*/
     /* flex: 30%; */
     margin: auto 0;
 }
 nav {
     flex: 60%; /* is this correct? */
-    border: 1px red solid;
     position: relative;
     display: flex;
     align-items: center;
@@ -38,22 +35,21 @@ nav ul {
     padding-left: 8%;
 }
 .shopping-cart {
-    border: 1px red solid;
     position: relative;
 }
 .shopping-cart .notification {
     position: absolute;
     top: 0.1rem;
     left: 0.1rem;
-    padding: 0.2rem 0.6rem;
+    padding: 0.1rem 0.5rem;
     border-radius: 50%;
     background-color: rgb(255, 166, 0);
     color: white;
+    font-size: 0.8rem;
   }
 /* aside + main */
 aside {
     display: inline-block;
-    border: 1px red solid;
     position: absolute;
     top: 15rem;
 }
@@ -62,7 +58,6 @@ aside ul {
     margin: 0;
 }
 main {
-    border: 1px purple solid;
     display: inline-block;
     margin: 5rem 7rem;
 }
@@ -93,7 +88,6 @@ li {
 }
 .main-image-container img {
     width: 35rem;
-    border: 1px red solid;
     overflow: hidden;
 }
 .shopping-cart img {
@@ -144,7 +138,6 @@ li {
     }
     .main-image-container img {
         width: 30rem;
-        border: 1px red solid;
         overflow: hidden;
     }
     .main-image-container {
@@ -161,7 +154,6 @@ li {
     }
     .main-image-container img {
         width: 10rem;
-        border: 1px red solid;
         overflow: hidden;
     }
     .main-image-container {
