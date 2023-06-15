@@ -7,6 +7,7 @@ body {
     padding: 1.5rem 0.5rem;
     overflow: auto;
     min-width: 901px;
+    width: 100vw;
 }
 header {
     display: flex;
@@ -135,6 +136,7 @@ li {
     body {
         background-image: url(files/background960x540.webp);
         min-width: 900px;
+        width: 100vw;
     }
     .main-image-container img {
         width: 30rem;
@@ -151,6 +153,7 @@ li {
     body {
         background-image: url(files/background412x915.webp);
         min-width: 700px;
+        width: 100vw;
     }
     .main-image-container img {
         width: 10rem;
