@@ -6,7 +6,7 @@ body {
     margin: 0;
     padding: 1.5rem 0.5rem;
     overflow: auto;
-    min-width: 900px;
+    min-width: 901px;
 }
 header {
     border: 1px purple solid;
@@ -131,20 +131,34 @@ li {
 @media screen and (max-width: 900px) {
     body {
         background-image: url(files/background960x540.webp);
+        min-width: 413px;
     }
     .main-image-container img {
         width: 30rem;
         border: 1px red solid;
         overflow: hidden;
     }
+    .main-image-container {
+        position: initial;
+        bottom: auto;
+        right: auto;
+        z-index: 3;
+    }
 }
 @media screen and (max-width: 412px) {
     body {
         background-image: url(files/background412x915.webp);
+        min-width: 413px;
     }
     .main-image-container img {
         width: 10rem;
         border: 1px red solid;
         overflow: hidden;
+    }
+    .main-image-container {
+        position: initial;
+        bottom: auto;
+        right: auto;
+        z-index: 3;
     }
 }
