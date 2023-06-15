@@ -6,6 +6,7 @@ body {
     margin: 0;
     padding: 1.5rem 0.5rem;
     overflow: auto;
+    min-width: 900px;
 }
 header {
     border: 1px purple solid;
@@ -127,24 +128,23 @@ li {
     width: 4rem;
 }
 
-@media screen and (max-width: 1400px) {
+@media screen and (max-width: 900px) {
     body {
         background-image: url(files/background960x540.webp);
-        background-repeat: no-repeat;
-        background-size: cover;
-        font-family: Helvetica, sans-serif;
-        margin: 0;
-        padding: 1.5rem 0.5rem;
+    }
+    .main-image-container img {
+        width: 30rem;
+        border: 1px red solid;
+        overflow: hidden;
     }
 }
-
 @media screen and (max-width: 412px) {
     body {
         background-image: url(files/background412x915.webp);
-        background-repeat: no-repeat;
-        background-size: cover;
-        font-family: Helvetica, sans-serif;
-        margin: 0;
-        padding: 1.5rem 0.5rem;
+    }
+    .main-image-container img {
+        width: 10rem;
+        border: 1px red solid;
+        overflow: hidden;
     }
 }
